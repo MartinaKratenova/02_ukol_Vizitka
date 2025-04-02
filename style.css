@@ -22,6 +22,7 @@ div.vizitka {
   box-shadow: 5px 5px 8px #888888;
   padding: 30px;
   margin-top: 150px;
+  position: relative;
 }
 
 h1 {
@@ -35,7 +36,7 @@ p {
   margin: 30px 0;
 }
 
-.tlacitko {
+.button {
   width: 100%;
   text-transform: uppercase;
   border-radius: 5px;
@@ -49,28 +50,33 @@ p {
   padding: 10px;
 }
 
-.twitter {
+.twitter-button {
   background-color: #1da1f2;
 }
-.twitter:hover {
+.twitter-button:hover {
   background-color: #0b7bc1;
 }
 
-.facebook {
+.facebook-button {
   background-color: #3b5998;
 }
 
-.facebook:hover {
+.facebook-button:hover {
   background-color: #2b406e;
 }
 
 img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border-color: white;
   border-width: 3px;
   border-style: solid;
-  float: right;
   box-shadow: 5px 5px 8px #888888;
+
+  position: absolute;
+  right: -75px;
+  top: -75px; 
 }
 
 /*
@@ -84,3 +90,6 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
+
+/* NOK
+- rozestupy mezi H1, p, a
