@@ -1,6 +1,64 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+
+body{
+background-color: #b2bec3;
+
+}
+
+
+div.vizitka{
+background-color: white;
+width: 550px;
+justify-self: center;
+border-radius: 10px;
+box-shadow: 5px 5px 8px #888888;
+
+}
+
+h1{
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tlacitko{
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    text-align: center;
+
+}
+
+
+.twitter{
+background-color:#1da1f2 ;
+
+}
+.twitter:hover{
+    background-color: #0b7bc1;
+}
+
+.facebook{
+    background-color:#3b5998 ;
+}
+
+.facebook:hover{
+    background-color: #2b406e;
+}
 
 /*
 BARVY:
@@ -13,4 +71,3 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
-
