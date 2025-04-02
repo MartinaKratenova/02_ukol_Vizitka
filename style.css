@@ -30,6 +30,10 @@ h1 {
   font-weight: bold;
   margin: 0;
 }
+p {
+  padding: 0;
+  margin: 30px 0;
+}
 
 .tlacitko {
   width: 100%;
@@ -41,6 +45,8 @@ h1 {
   display: inline-block;
   border: none;
   text-align: center;
+  margin: 5px 0;
+  padding: 10px;
 }
 
 .twitter {
@@ -58,9 +64,13 @@ h1 {
   background-color: #2b406e;
 }
 
-img{
-float: right;
-
+img {
+  border-radius: 50%;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  float: right;
+  box-shadow: 5px 5px 8px #888888;
 }
 
 /*
