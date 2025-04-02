@@ -8,56 +8,59 @@ html {
   box-sizing: inherit;
 }
 
-
-body{
-background-color: #b2bec3;
-
+body {
+  background-color: #b2bec3;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
 }
 
-
-div.vizitka{
-background-color: white;
-width: 550px;
-justify-self: center;
-border-radius: 10px;
-box-shadow: 5px 5px 8px #888888;
-
+div.vizitka {
+  background-color: white;
+  width: 550px;
+  justify-self: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #888888;
+  padding: 30px;
+  margin-top: 150px;
 }
 
-h1{
-    color: #d63031;
-    font-size: 36px;
-    font-weight: bold;
+h1 {
+  color: #d63031;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
 }
 
-.tlacitko{
-    width: 100%;
-    text-transform: uppercase;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    text-align: center;
-
+.tlacitko {
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  text-align: center;
 }
 
-
-.twitter{
-background-color:#1da1f2 ;
-
+.twitter {
+  background-color: #1da1f2;
 }
-.twitter:hover{
-    background-color: #0b7bc1;
+.twitter:hover {
+  background-color: #0b7bc1;
 }
 
-.facebook{
-    background-color:#3b5998 ;
+.facebook {
+  background-color: #3b5998;
 }
 
-.facebook:hover{
-    background-color: #2b406e;
+.facebook:hover {
+  background-color: #2b406e;
+}
+
+img{
+float: right;
+
 }
 
 /*
